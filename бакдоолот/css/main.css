@@ -1,0 +1,39 @@
+body{
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    background-color: #ff8d1e;
+}
+
+p{
+    color: dodgerblue;
+    margin: 25px 0;
+}
+
+h1{
+    color: dodgerblue;
+    font-size: 60px;
+}
+
+div{
+    width: 60%;
+    margin: auto;
+    padding: 10px;
+    background-color: #fff;
+    box-shadow: 0 0 10px 1px rgba(0,0,0,0.2);
+}
+a{
+    text-decoration: none;
+    color: #ff1e90;
+    display: block;
+    margin: 20px 0;
+    border-bottom: 1px solid transparent;
+    transition: 0.2s ease-in;
+}   
+img{
+    max-width: 60%;
+    height: auto;
+    display: block;
+}   
+a:hover {
+    border-bottom-color: #929aab;
+}
